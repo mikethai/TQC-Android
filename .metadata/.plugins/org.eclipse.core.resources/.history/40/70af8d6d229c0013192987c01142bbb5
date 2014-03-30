@@ -1,0 +1,45 @@
+package COM.TQC.GDD01;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+public class GDD01 extends Activity {
+ 
+	protected TextView MyOutcome;
+	protected int volt;
+	private EditText input_a,input_hr,input_m;
+	private Spinner field_v;
+	private Button submit;
+	private TextView respond;
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        field_v= (Spinner) findViewById(R.id.option_v);
+        input_a=(EditText) findViewById(R.id.input_a);     
+        input_hr=(EditText) findViewById(R.id.input_hr);
+        input_m=(EditText) findViewById(R.id.input_m);
+        submit=(Button) findViewById(R.id.submit);
+        respond=(TextView) findViewById(R.id.respond);
+        
+        ///重要的在這裡ArrayAdapter的運用!!!
+        ArrayAdapter<CharSequence>  spinner_v =             //CharSequence 字元序列
+        		ArrayAdapter.createFromResource(this,       //createFromResource  建立表單從資源
+        				R.array.option_vs,                  //選擇字串陣列
+        				android.R.layout.simple_spinner_dropdown_item);  //選擇layout 的spinner樣式
+        
+        spinner_v.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        
+        field_v.setAdapter(spinner_v);    //設定Adapter
+        
+        
+    }
+	
+	
+}

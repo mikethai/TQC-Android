@@ -1,0 +1,25 @@
+package COM.TQC.GDD01;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class GDD01 extends Activity {
+ 
+	protected TextView MyOutcome;
+	protected int volt,input_hr,input_m;
+	protected  double input_a;
+     
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+  
+        
+        
+        
+ 
+    }
+
+}

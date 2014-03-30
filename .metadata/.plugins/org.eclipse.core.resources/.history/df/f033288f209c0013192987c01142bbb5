@@ -1,0 +1,28 @@
+package COM.TQC.GDD01;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+public class GDD01 extends Activity {
+ 
+	protected TextView MyOutcome;
+	protected int volt;
+	private EditText input_a,input_hr,input_m;
+	private Spinner field_v;
+	private Button submit;
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        input_a=(EditText) findViewById(R.id.input_a);     
+        input_hr=(EditText) findViewById(R.id.input_hr);
+        input_m=(EditText) findViewById(R.id.input_m);
+ 
+    }
+
+}

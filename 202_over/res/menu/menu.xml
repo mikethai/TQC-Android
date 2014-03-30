@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_reset" 
+          android:alphabeticShortcut="r" 
+          android:title="重設" />
+</menu>

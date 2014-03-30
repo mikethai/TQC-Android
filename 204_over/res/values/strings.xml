@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SQLite與MENU作業</string>
+    <string name="hello">點選MENU可新增、修改、刪除</string>
+  <string name="strEditButton">修改</string>
+  <string name="strAddButton">新增</string>
+  <string name="strDeleteButton">刪除</string>
+  <string name="str_ok"> 確定</string>
+</resources>
+

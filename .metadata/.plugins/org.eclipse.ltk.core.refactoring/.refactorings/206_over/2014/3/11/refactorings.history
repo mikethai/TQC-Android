@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;GDD02&apos;&#x0D;&#x0A;- Original project: &apos;GDD02&apos;&#x0D;&#x0A;- Original element: &apos;list.xml&apos;" description="Delete element" element1="res/layout/list.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1394625477325" subPackages="false" version="1.0"/>&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/GDD02/res/layout/list.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/GDD02" sel-end="212" sel-start="40" stamp="1394627297147" type="android.widget.LinearLayout"/>
+</session>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+
+    <TextView
+        android:id="@+id/mTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="46dp"
+        android:text="@string/str_text" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="331dp"
+        android:text="@string/str_button" />
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="136dp"
+        android:layout_height="204dp"
+        android:layout_x="84dp"
+        android:layout_y="88dp"
+        android:src="@drawable/png002" />
+ 
+  </AbsoluteLayout>
